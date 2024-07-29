@@ -1,5 +1,6 @@
 let nomor = 0
 const lirik = [
+  "Mars Abdi Siswa:",
   "Kita Warga Abdi Siswa",
   "Maju Bersama",
   "Bergerak Bersatu Padu",

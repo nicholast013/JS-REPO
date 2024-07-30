@@ -38,6 +38,7 @@ function lirikfunction() {
 }
 
 window.addEventListener("load", (event) => {
+  alert("HI111");
   let audio = new Audio('https://github.com/nicholast013/JS-REPO/blob/main/vasesound.mp3?raw=true');
   audio.play();
   setInterval(lirikfunction, 5000);

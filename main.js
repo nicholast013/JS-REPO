@@ -29,10 +29,11 @@ function sleep(milliseconds) {
 }
 
 function lirikfunction() {
-  nomor += 1;
   document.getElementById("lirik").textContent = lirik[nomor];
   if (nomor == lirik.length) {
     nomor = 0;
+  else {
+    nomor += 1;
   }
 }
 

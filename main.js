@@ -29,12 +29,11 @@ function sleep(milliseconds) {
 }
 
 function lirikfunction() {
-  document.getElementById("lirik").textContent = lirik[nomor];
   if (nomor == lirik.length) {
     nomor = 0;
-  else {
-    nomor += 1;
   }
+  document.getElementById("lirik").textContent = lirik[nomor];
+  nomor += 1;
 }
 
 window.addEventListener("load", (event) => {
